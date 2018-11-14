@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tarea Bootstrap - Rafael Santos - 21221036</title>
+ 
+    <!-- CSS de Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+ 
+    <!-- librerías opcionales que activan el soporte de HTML5 para IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <img src="https://art.ngfiles.com/images/403000/403668_halfmilk_smash-ball-gif.gif?f1454458037" alt="..." class="img-thumbnail">
+    <h1>Tema elegido: Smash Bros.</h1>
+    <!-- Librería jQuery requerida por los plugins de JavaScript -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+ 
+    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+         incluir archivos JavaScript individuales de los únicos
+         plugins que utilices) -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!--------------TABLA-------------->
+<table class="table">
+    <h3>Algunos peleadores del juego</h3>
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Peleador</th>
+        <th scope="col">Saga</th>
+        <th scope="col">Año debut</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Yoshi</td>
+        <td>Ike</td>
+        <td>Falco</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Yoshi</td>
+        <td>Fire Emblem</td>
+        <td>StarFox</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>1990</td>
+        <td>2005</td>
+        <td>1993</td>
+      </tr>
+    </tbody>
+  </table>
+
+<!--------------NAVIGATION BAR-------------->
+  <nav class="navbar navbar-default" role="navigation">
+    <!-- El logotipo y el icono que despliega el menú se agrupan
+         para mostrarlos mejor en los dispositivos móviles -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Buscar navegacion</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.smashbros.com/es_LA/index.html">Smash</a>
+    </div>
+   
+    <!-- Agrupar los enlaces de navegación, los formularios y cualquier
+         otro elemento que se pueda ocultar al minimizar la barra -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="https://www.smashbros.com/es_LA/fighter/05.html">Link de Yoshi</a></li>
+        <li><a href="https://www.smashbros.com/es_LA/fighter/32.html">Link de Ike</a></li>
+        <li><a href="https://www.smashbros.com/es_LA/fighter/20.html">Link de Ike</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Menú <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="https://es.wikipedia.org/wiki/Yoshi">Info de Yoshi</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Ike_(Fire_Emblem)">Info de Ike</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Falco_Lombardi">Info de Falco</a></li>
+          </ul>
+        </li>
+      </ul>
+   
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Buscar">
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </form>
+   
+      <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!--------------IMAGENES-------------->
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Falco_Lombardi_%28character%29.png/220px-Falco_Lombardi_%28character%29.png" alt="..." class="img-thumbnail">
+<img src="https://vignette.wikia.nocookie.net/nintendo/images/2/24/Super_Smash_Bros._Ultimate_-_Character_Art_-_Ike.png/revision/latest/scale-to-width-down/250?cb=20180613025819&path-prefix=en" alt="..." class="img-thumbnail">
+<img src="https://statici.behindthevoiceactors.com/behindthevoiceactors/_img/chars/yoshi-super-smash-bros-ultimate-8.27.jpg" alt="..." class="img-thumbnail">
+
+<!--------------JUMBOTRON-------------->
+<div class="jumbotron">
+    <div class="container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Super_Smash_Bros._Ultimate_logo.svg/512px-Super_Smash_Bros._Ultimate_logo.svg.png" alt="..." class="img-thumbnail">
+      <p>Es un próximo videojuego de lucha de la serie Super Smash Bros. desarrollada por Bandai Namco Games y Sora Ltd. y publicado por Nintendo. 
+        Saldrá a la venta para Nintendo Switch el 7 de diciembre de 2018.</p>
+        <p class="lead">
+            <a class="btn btn-cyan btn-lg" href="https://es.wikipedia.org/wiki/Super_Smash_Bros._Ultimate" role="button">Leer mas</a>
+        </p>
+    </div>
+  </div>  
+
+<!--------------PANELS-------------->
+  <div class="panel panel-default">
+    <div class="panel-body">
+      Ejemplo de panel
+    </div>
+  </div>  
+  
+<!--------------FOOTER-------------->
+<div class="container text-center">
+    <hr />
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="https://goo.gl/EqyQpc">Acerca de...</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="https://www.nintendo.com/switch/buy-now/">Comprar</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="http://www.sloansportsconference.com/content/esports-analytics-super-smash-bros/">Estadisticas</a></li>
+          <li><a href="https://youtu.be/BnpmjTMI12c">Trailer</a></li>          
+        </ul>
+      </div>  
+    </div>
+  </div>
+  <hr>
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="nav nav-pills nav-justified">
+                <li><a href="https://www.nintendo.com/">© 2018 Nintendo Company.</a></li>
+                <li><a href="https://www.nintendo.com/consumer/index.jsp">Soporte</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+  
